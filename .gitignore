@@ -1,0 +1,7 @@
+# Feel free to add more these are what i thought of for now
+venv/
+
+*.pyc
+__pycache__/
+
+.vscode/
