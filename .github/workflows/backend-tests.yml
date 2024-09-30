@@ -28,5 +28,6 @@ jobs:
       - name: Run tests
         run: |
           # Run these mfs
+          cd backend
           echo "We running them joints"
-          python3 -m pytest backend
+          python3 -m pytest
