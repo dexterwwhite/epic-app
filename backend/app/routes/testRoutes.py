@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from .services import *
+from ..services import testFunction
 
 # Define the blueprint for the main section of the site
 main = Blueprint('main', __name__)
